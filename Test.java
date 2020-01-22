@@ -6,6 +6,6 @@ public class Test{
 
         dog1.speak();
         cat1.speak();
-        bill.AreYouHappy();
+        System.out.println(bill.areYouHappy());
     }
 }

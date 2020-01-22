@@ -7,11 +7,11 @@ public class PetOwner{
         }
     }
 
-    public void AreYouHappy(){
+    public String areYouHappy(){
         if(happy){
-            System.out.println("I am happy!");
+            return ("I am happy!");
         } else {
-            System.out.println("I am not happy");
+            return("I am not happy");
         }
     }
 }

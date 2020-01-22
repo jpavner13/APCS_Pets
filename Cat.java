@@ -1,12 +1,7 @@
-public class Cat{
-    private boolean fed = false;
-    private boolean walked = false;
-    private boolean petted = false;
+public class Cat extends Pet{
 
-    public Cat(boolean fed, boolean walked, boolean petted){
-        this.fed = fed;
-        this.walked = walked;
-        this.petted = petted;
+    public Cat(String name){
+        super.name = name;
     }
 
     public boolean happy(){

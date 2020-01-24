@@ -1,7 +1,7 @@
 public class PetOwner{
     private boolean happy = false;
 
-    public PetOwner(Dog dog, Cat cat){
+    public PetOwner(Pet dog, Pet cat){
         if (dog.happy() && cat.happy()){
             this.happy = true;
         }

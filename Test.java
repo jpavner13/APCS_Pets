@@ -1,8 +1,17 @@
 public class Test{
     public static void main(String[] args){
-        Dog dog1 = new Dog(true, true, true);
-        Cat cat1 = new Cat(true, false, false);
+        Pet dog1 = new Pet("Hank");
+        Pet cat1 = new Pet("Forrest");
         PetOwner bill = new PetOwner(dog1, cat1);
+
+        dog1.feedPet();
+        cat1.feedPet();
+
+        dog1.walkPet();
+        cat1.walkPet();
+
+        dog1.petPet(); 
+        cat1.petPet(); 
 
         dog1.speak();
         cat1.speak();

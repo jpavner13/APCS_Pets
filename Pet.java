@@ -29,7 +29,7 @@ public class Pet{
     }
 
     public void speak(){
-        if(this.fed && this.walked && this.petted){
+        if(happy()){
             System.out.println("WOOF!");
         } else {
             System.out.println("woof");

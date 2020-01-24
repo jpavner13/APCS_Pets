@@ -1,7 +1,7 @@
 public class Test{
     public static void main(String[] args){
-        Pet dog1 = new Pet("Hank");
-        Pet cat1 = new Pet("Forrest");
+        Pet dog1 = new Dog("Hank");
+        Pet cat1 = new Cat("Forrest");
         PetOwner bill = new PetOwner(dog1, cat1);
 
         dog1.feedPet();

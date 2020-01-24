@@ -35,4 +35,16 @@ public class Pet{
             System.out.println("woof");
         }
     }
+
+    public boolean getFed(){
+        return this.fed;
+    }
+
+    public boolean getWalked(){
+        return this.walked;
+    }
+
+    public boolean getPetted(){
+        return this.petted;
+    }
 }

@@ -1,14 +1,18 @@
 public class PetOwner{
-    private boolean happy = false;
+    private boolean happy = true;
 
-    public PetOwner(Pet dog, Pet cat){
-        if (dog.happy() && cat.happy()){
-            this.happy = true;
+    public PetOwner(Pet pets[]){
+
+        for(Pet pet : pets){
+            if (!pet.happy()){
+                this.happy = false;
+            }
         }
+
     }
 
     public String areYouHappy(){
-        if(happy){
+        if(this.happy){
             return ("I am happy!");
         } else {
             return("I am not happy");

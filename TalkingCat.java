@@ -4,8 +4,6 @@ public class TalkingCat extends Cat{
 
     public TalkingCat(String name){
         super(name);
-        private Random rand = new Random();
-
     }
 
 
@@ -13,12 +11,12 @@ public class TalkingCat extends Cat{
     String[] insult = new String[]{"Beat it nubnuts", "No wonder your wife left you", "Shut it Karen"};
 
     public String speak(){
+        Random rand = new Random();
+
         if (happy()){
-            int rand = rand.nextInt(2);
-            return comp[rand];
+            return comp[rand.nextInt(2)];
         } else {
-            int rand = rand.nextInt(3);
-            return insult[rand];
+            return insult[rand.nextInt(2)];
         }
     }
 }

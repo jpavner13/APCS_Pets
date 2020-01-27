@@ -3,7 +3,6 @@ public class Test{
 
         Pet dog1 = new Dog("Hank");
         Pet cat1 = new Cat("Forrest");
-        PetOwner bill = new PetOwner(dog1, cat1);
         
         Pet yourkie = new Yourkie("Yourkie");
         Pet talkingCat = new TalkingCat("Talking Cat");

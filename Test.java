@@ -3,6 +3,7 @@ public class Test{
 
         Pet dog1 = new Dog("Hank");
         Pet cat1 = new Cat("Forrest");
+        
         Pet yourkie = new Yourkie("Yourkie");
         Pet talkingCat = new TalkingCat("Talking Cat");
         Pet Horse = new Horse("Horse");
@@ -11,7 +12,7 @@ public class Test{
         PetOwner bill = new PetOwner(pets);
 
         dog1.feedPet();
-        cat1.feedPet();
+        cat1.feedPet(); 
         yourkie.feedPet();
         talkingCat.feedPet();
         Horse.feedPet();
@@ -20,6 +21,8 @@ public class Test{
         yourkie.walkPet();
         Horse.walkPet();
 
+        dog1.petPet();
+        cat1.petPet();
         dog1.petPet(); 
         for(int i = 1; i < 11; i++){
             yourkie.petPet();

@@ -4,7 +4,10 @@ public class TalkingCat extends Cat{
 
     public TalkingCat(String name){
         super(name);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 20f4734af7c2ce8cb9b8e858e0fbf22d9ea8c100
     }
 
 
@@ -13,6 +16,10 @@ public class TalkingCat extends Cat{
 
     public String speak(){
         Random rand = new Random();
+<<<<<<< HEAD
+=======
+
+>>>>>>> 20f4734af7c2ce8cb9b8e858e0fbf22d9ea8c100
         if (happy()){
             return comp[rand.nextInt(2)];
         } else {

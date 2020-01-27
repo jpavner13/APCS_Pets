@@ -16,7 +16,7 @@ public class TalkingCat extends Cat{
         if (happy()){
             return comp[rand.nextInt(2)];
         } else {
-            return insult[rand.nextInt(2)];
+            return insult[rand.nextInt(3)];
         }
     }
 }

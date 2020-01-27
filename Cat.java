@@ -11,11 +11,11 @@ public class Cat extends Pet{
         return false;
     }
 
-    public void speak(){
+    public String speak(){
         if(getFed() && !getWalked() && !getPetted()){
-            System.out.println("Meow");
+            return "Meow";
         } else {
-            System.out.println("FRIKKEN DIE HUMAN!!!!!");
+            return "FRIKKEN DIE HUMAN!!!!!";
         }
     }
 }

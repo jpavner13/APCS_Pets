@@ -4,7 +4,7 @@ public class PetOwner{
     public PetOwner(Pet pets[]){
 
         for(Pet pet : pets){
-            if (!pet.happy()){
+            if (pet.happy()){
                 this.happy = false;
             }
         }

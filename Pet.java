@@ -28,11 +28,11 @@ public class Pet{
         return false;
     }
 
-    public void speak(){
+    public String speak(){
         if(happy()){
-            System.out.println("WOOF!");
+            return "WOOF!";
         } else {
-            System.out.println("woof");
+            return "woof";
         }
     }
 
